@@ -1,0 +1,50 @@
+.ediya {
+  background-color: #2a47bf;
+  color: white;
+  width: 440px;
+  border-radius: 5px;
+  font-weight: 800;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.kakao {
+  background-color: yellow;
+  color: rgb(80, 19, 19);
+  width: 440px;
+  border-radius: 5px;
+  font-weight: 800;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.naver {
+  background-color: rgb(2, 165, 2);
+  color: white;
+  width: 440px;
+  border-radius: 5px;
+  font-weight: 800;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.star {
+  background-color: #006633;
+  color: white;
+  width: 440px;
+  border-radius: 5px;
+  font-weight: 600;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  text-align: center;
+  font-size: 22px;
+}
