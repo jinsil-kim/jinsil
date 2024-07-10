@@ -1,0 +1,33 @@
+.box {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+
+  /* 주축(가로축/세로축) */
+  /* 자식들을 주축으로 맨앞:start, 가운데:center, 오른쪽:end, 
+  균일한 간격:space-between */
+  justify-content: center;
+
+  /* 교차축(세로축) */
+  /* align-items: end; */
+}
+
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.black {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.green {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
