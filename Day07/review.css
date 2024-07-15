@@ -1,0 +1,28 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 9999px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sky{
+    background-color: skyblue;
+}
+
+.black{
+    background-color: black;
+}
+
+.icon>i{
+    font-size: 30px;
+    color: white;
+}
