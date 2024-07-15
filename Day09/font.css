@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dokdo&family=Gaegu&display=swap");
+@font-face {
+  font-family: "HancomSans-Light";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2406-1@1.0/HancomSans-Light.woff2")
+    format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  width: 100vw;
+  height: 300vh;
+  background-color: aqua;
+}
+
+.menu {
+  padding: 20px;
+  border: 3px solid pink;
+  width: fit-content;
+  font-size: 30px;
+
+  position: fixed;
+
+  /* top or bottom : 0px */
+  /* left or right : 0px */
+
+  right: 100px;
+  bottom: 100px;
+}
+
+.morning {
+  font-family: "HancomSans-Light";
+}
+
+.lunch {
+  font-family: "Gaegu", sans-serif;
+}
+
+.dinner {
+  font-family: "Black Han Sans", sans-serif;
+}
