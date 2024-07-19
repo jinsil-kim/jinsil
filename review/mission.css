@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "BMDOHYEON";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.mission {
+  width: 100vw;
+  height: 100vh;
+  top: 0 auto;
+  background-color: #2ac1bc;
+}
+.mission__container {
+  max-width: 960px;
+  margin: 0 auto;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start; */
+  padding: 150px 155px;
+}
+.mission__contents {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.mission_title {
+  display: flex;
+  flex-direction: column;
+  font-family: "BMDOHYEON";
+  font-size: 85px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  gap: 5px;
+}
+.mission_title_sub {
+  display: flex;
+  flex-direction: column;
+}
+.mission_image > .one {
+  position: relative;
+  left: 500px;
+  bottom: 100px;
+}
+
+.mission_image > .hero {
+  position: relative;
+  left: 20px;
+  bottom: 400px;
+  width: 25%;
+  height: 25%;
+  transform: rotate(180deg);
+}

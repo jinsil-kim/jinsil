@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "BMDOHYEON";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.jumbotron {
+  width: 100vw;
+  height: 100vh;
+  top: 0 auto;
+  background-color: #2ac1bc;
+}
+
+.jumbo_container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding: 200px 155px;
+}
+.jumbo_contents {
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+}
+.jumbo__title {
+  display: flex;
+  flex-direction: column;
+  font-size: 80px;
+  font-family: "BMDOHYEON";
+  gap: 10px;
+}
+
+.jumbo__title_sub {
+  margin-top: 20px;
+}
+.jumbo__image {
+  padding-left: 380px;
+}

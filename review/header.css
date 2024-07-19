@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "UhBeeibuson";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeibuson.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  width: 100vw;
+  height: 150px;
+ 
+ position: fixed;
+}
+
+nav {
+ 
+  width: 100%;
+  height: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.logo>img{
+  width: 50%;
+  height: 50%;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 450px; */
+}
+
+.links {
+  list-style: none;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.scroll{
+  font-family: "UhBeeibuson";
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  left: 300px;
+  color: white;
+}
+
+.scroll>img{
+  width: 5%;
+  height: 5%;
+
+}
